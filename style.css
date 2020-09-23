@@ -1,0 +1,72 @@
+* {
+  color: #333;
+  font-family: "Noto Sans JP", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+main {
+  padding: 10vh 0;
+}
+
+h1 {
+  font-size: 48pt;
+}
+
+h2 {
+  font-size: 20pt;
+  font-weight: 300;
+}
+
+form * {
+  margin: 0 10px;
+}
+
+button,
+input,
+label {
+  font-size: 30pt;
+  font-weight: 600;
+}
+
+input {
+  border: 1px solid #666;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+
+button {
+  background-color: orange;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  padding: 5px 20px;
+}
+
+button:hover {
+  background-color: red;
+}
+
+em {
+  display: block;
+  margin: 100px 0;
+}
+
+strong {
+  color: red;
+  font-style: normal;
+  font-size: 60pt;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+strong::after {
+  content: "!!!";
+}
+
+a {
+  font-size: 20pt;
+}
